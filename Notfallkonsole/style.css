@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#schaltfläche {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#schaltfläche div {
+    border: 4px solid white;
+    border-radius: 10px;
+    width: 170px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#schaltfläche a {
+    text-decoration: none;
+    color: white;
+}
+
+#schaltfläche div.hover {
+    color: red;
+    border-color: red;
+}
