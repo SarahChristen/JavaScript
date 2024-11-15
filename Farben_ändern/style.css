@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    position: fixed;
+    left: 150px;
+}
